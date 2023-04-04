@@ -24,7 +24,7 @@ O portal de carros foi desenvolvido utilizando as seguintes tecnologias:
 
 Para utilizar o portal de carros, siga as instruções abaixo:
 
-- Clone o repositório para sua máquina local: git clone https://github.com/seu-usuario/portal-de-carros.git
+- Clone o repositório para sua máquina local: git clone https://github.com/marcelomelojr/flowih_teste_pratico.git
 - Instale as dependências do projeto: composer install
 - Configure o arquivo .env com as informações do seu banco de dados.
 - Crie as tabelas no banco de dados: php artisan migrate
