@@ -1,0 +1,16 @@
+{
+    "Email": "E-mail",
+    "Password": "Senha",
+    "Remember me": "Lembrar-me",
+    "Forgot your password?": "Esqueceu sua senha?",
+    "Log in": "Entrar",
+    "Confirm Password": "Confirmar Senha",
+    "Register": "Registrar",
+    "Name": "Nome",
+    "Already registered?": "Já registrado?",
+    "Reset Password": "Redefinir Senha",
+    "Email Password Reset Link": "Email para o link de redefinição de senha",
+    "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.": "Esqueceu sua senha? Sem problemas. Basta nos informar seu endereço de e-mail e enviaremos um link de redefinição de senha por e-mail que permitirá que você escolha uma nova.",
+    "Send Password Reset Link": "Enviar link de redefinição de senha",
+    "Dashboard": "Painel de controle"
+}
