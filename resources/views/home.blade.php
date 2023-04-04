@@ -32,7 +32,7 @@
         @empty
         @endforelse
     </div>
-    <div class="grid grid-cols-4 gap-4 mx-auto w-10/12 mt-4">
+    <div class="grid gap-4 mx-auto w-10/12 mt-4">
         {{ $cars->links() }}
     </div>
 @endsection

@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -16,13 +17,15 @@ class CarFactory extends Factory
      */
     public function definition(): array
     {
+        $user = User::inRandomOrder()->first();
         return [
             'name' => $this->faker->name,
-            'model' => $this->faker->name,
-            'color' => $this->faker->name,
+            'model' => $this->faker->company,
+            'color' => $this->faker->colorName,
             'year' => $this->faker->year,
-            'price' => $this->faker->randomFloat(2, 0, 1000000),
-            'description' => $this->faker->text(255),
+            'price' => $this->faker->randomFloat(2, 0, 100000),
+            'description' => $this->faker->text(2000),
+            'user_id' => $user->id,
         ];
     }
 }

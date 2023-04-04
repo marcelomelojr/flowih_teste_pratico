@@ -18,7 +18,7 @@
 
                 @foreach($car->images as $image)
                     <div class="swiper-slide"
-                         style="background-image: url({{ asset('storage/'.$image->url) }}); background-size: cover; background-position: center">
+                         style="background-image: url({{ asset('storage/'.$image->url) }}); background-size: cover; background-position: center; width: 740px !important;">
                         <div class="flex items-end justify-center">
                             <p class="text-white">-</p>
                         </div>

@@ -31,7 +31,20 @@ Para utilizar o portal de carros, siga as instruções abaixo:
 - Inicie o servidor: php artisan serve
 - Abra o navegador e acesse o endereço http://localhost:8000
 
+## Seeders
+
+- Para popular o banco de dados com dados de teste, execute o comando: php artisan db:seed
+- Após a execução do comando, o banco de dados será populado com 1 usuário administrador, 10 usuarios comuns e 25
+  carros.
+
+## Usuário administrador
+
+- O usuário administrador possui as seguintes credenciais:
+    - E-mail: admin@admin.com
+    - Senha: password
+
 ## Testes automatizados
 
 Para rodar os testes, siga as intruções abaixo:
+
 - php artisan test
