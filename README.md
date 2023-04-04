@@ -30,3 +30,8 @@ Para utilizar o portal de carros, siga as instruções abaixo:
 - Crie as tabelas no banco de dados: php artisan migrate
 - Inicie o servidor: php artisan serve
 - Abra o navegador e acesse o endereço http://localhost:8000
+
+## Testes automatizados
+
+Para rodar os testes, siga as intruções abaixo:
+- php artisan test
