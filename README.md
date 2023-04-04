@@ -31,6 +31,13 @@ Para utilizar o portal de carros, siga as instruções abaixo:
 - Inicie o servidor: php artisan serve
 - Abra o navegador e acesse o endereço http://localhost:8000
 
+### Utilizando Docker
+- Para rodar o projeto utilizando o docker, rode o comando abaixo:
+    - ./vendor/bin/sail up
+    
+### Vite
+Execute o comando npm run dev, para iniciar o vite e gerar o css e js das páginas.
+
 ## Seeders
 
 - Para popular o banco de dados com dados de teste, execute o comando: php artisan db:seed
