@@ -6,7 +6,7 @@ Este é um projeto de um portal de carros, onde usuários podem anunciar seus ca
 
 O portal de carros possui as seguintes funcionalidades:
 
-- Pesquisa por carros por modelo, marca, ano e preço.
+- Visualizar carros com modelo, marca, ano e preço.
 - Lista de resultados com informações básicas sobre cada carro, como modelo, marca e ano.
 - Página de detalhes para cada carro, com informações detalhadas sobre o veículo, incluindo fotos, especificações
   técnicas
